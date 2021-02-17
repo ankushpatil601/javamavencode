@@ -33,6 +33,6 @@ jobs:
       with:
         image: ankushpa/ankush_docker_workspace
         tags: v1, latest
-        registry: registry-url.io
+        registry: https://hub.docker.com/repository/docker/
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
