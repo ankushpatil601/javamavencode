@@ -1,2 +1,2 @@
 FROM alpine:3.7
-COPY *.tar /home/tars/
+COPY ./javamavencode/target/*.tar /home/tars/
