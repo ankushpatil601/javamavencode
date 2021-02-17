@@ -1,2 +1,2 @@
 FROM alpine:3.7
-COPY *.jar /home/jar/
+COPY ./my-app-1.0-SNAPSHOT.jar /usr/app/
